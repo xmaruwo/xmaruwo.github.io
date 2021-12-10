@@ -1,0 +1,189 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+.top-wrapper {
+  padding-top: 180px;
+  padding-bottom: 100px;
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  text-align: center;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  color: white;
+}
+
+.container h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  opacity: 0.7;
+}
+
+.btn-wrapper {
+  margin: 1130px;
+}
+
+.btn {
+  margin: 10px;
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.singup {
+  margin-top: 30px;
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top:20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.lesson-wrapper {
+  background-color: #f7f7f7;
+  height: 580px;
+  text-align: center;
+}
+
+.heading h2 {
+  font-weight: normal;
+  color: #5f5d60;
+  padding-top:80px;
+  padding-bottom: 50px;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  color: white;
+  top: 90px;
+  width: 100%;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+.message-wrapper {
+  text-align: center;
+  padding-bottom: 80px;
+}
+.message-wrapper h2 {
+  font-weight: normal;
+  color: #5f5d60;
+  padding-top: 80px;
+  padding-bottom: 0px;
+
+}
+
+.message-wrapper h3 {
+  color: #5f5d60;
+}
+
+.message {
+  margin-top: 50px;
+  padding: 15px 40px;
+  box-shadow: 0 7px #1a7940;
+  background-color: #5dca88;
+  opacity: 0.8;
+}
+
+.message:active {
+  opacity: 1;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+footer {
+  border-top: 1px solid #eee;
+}
+
+footer img {
+  width: 124px;
+  padding-top: 30px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+  padding-bottom: 30px;
+}
